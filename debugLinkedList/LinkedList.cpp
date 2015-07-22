@@ -96,8 +96,8 @@ void LinkedList::appendItem (int item)
 
    if (head == NULL)
    {
-			newNodePtr = new ListElement(item, NULL);
-			head = newNodePtr;           
+	newNodePtr = new ListElement(item, NULL);
+	head = newNodePtr;           
    }
    else
    {

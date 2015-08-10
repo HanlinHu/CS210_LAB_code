@@ -1,0 +1,29 @@
+Reference: Algorithms in C++ by Robert Sedgewick
+Page No. : 37
+
+O(1)
+Most instructions of most programs are executed once or at most only a few times. (Constant)
+
+O(logN)
+When the running time of a program is logarithmic, the problem gets slightly slower as N grows.
+This running time commonly occurs in programs that solve a big problem by transformation into a series of smaller problems, 
+cutting the problem size by some constant fraction at each step.
+
+O(N)
+When the running time of a program is linear, it is generally the case that a small amount of processing is done on each input element.
+
+O(NlogN)
+The NlogN running time arises when algorithms solve a problem by breaking it up into smaller subproblems, solving them independently,
+and then combining the solutions.
+
+O(N^2)
+When the running time of an algorithm is quadratic, that algorithm is practical for use on only relatively small problems.
+Quadratic running times typically arise in algorithms that process all pairs fo data items (perhaps in a double nested loop).
+
+O(N^3)
+An algorithm that processes triples of data items (perhaps in a triple-nested loop) has a cubic running time.
+
+O(2^N)
+Few algorithms with exponential running time are likely to be appropriate for practical use, 
+even though such algorithms arise naturally as brute-force solutions to problems.
+

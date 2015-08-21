@@ -17,6 +17,7 @@ int main()
   cout << "Enter an expression and press return." << endl;
   cin.get(symbol); 
 
+try{
   while (symbol != '\n' && balanced)
   {
     if (IsOpen(symbol))
@@ -40,6 +41,11 @@ int main()
     cout << "Expression is well formed." << endl;
   else
     cout << "Expression is not well formed."  << endl;
+}
+catch(FullStack)
+{
+   cout << "Stack is full." << endl;
+}
   return 0;
 }
     
